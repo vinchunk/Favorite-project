@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This is the story about Vialy and Allya dealing with long distance relationship" />
+  <title>Love Story - ViAlly</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="header">
+     <button class="open-btn" onclick="openMenu()">
+      <img src="images/open button.png" alt="Menu Icon" class="menu-icon">
+     <h2 span class="menu-text">Menu</span></h2>
+    </button>
+      <h1>Love story how we met</h1>
+    </div>
+  </div>
+
+ <div id="mySideMenu" class="side-menu">
+
+  <!-- Close button -->
+  <button class="close-btn" onclick="closeMenu()">
+  <img src="images/close button.png" alt="Close Icon" class="close-icon">
+  <h2 span class="close-text">Close</span></h2>
+</button>
+
+
+  <!-- Profile block -->
+  <div class="profile">
+    <img src="images/profile picture.jpeg" alt="Profile">
+    <h3>ViAlly</h3>
+    <p>Long Distance Lover</p>
+  </div>
+
+  <!-- Menu links block -->
+  <div class="menu-links">
+    <a href="#" onclick="closeMenu()">Home</a>
+    <a href="javascript:void(0)" onclick="scrollToSection('ourstory')">Our Story</a>
+    <a href="javascript:void(0)" onclick="scrollToSection('gallery')">Gallery</a>
+    
+    <div style="padding: 12px; color: white; font-size: 14px;">
+      <p>Follow us:</p>
+      <a href="https://instagram.com/allyaks" target="_blank">Instagram</a><br>
+      <a href="https://tiktok.com/@cwispyspeedy" target="_blank">TikTok</a>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Menu Overlay -->
+<div id="menuOverlay" class="menu-overlay" onclick="closeMenu()"></div>
+
+  <!-- Main Content -->
+  <main class="main">
+
+    <div id="intro" class="section intro-section">
+      <div class="intro-background"></div>
+      <div class="container">
+        <h1>Introduction</h1>
+        <p>This blog is for Love of my Life on how I met this beautiful girl online.</p>
+    </div>
+
+    <div id="ourstory" class="section hidden">
+      <h2>Our Story</h2>
+      <p>It was a sunny day when I met her on a Discord server around 3pm. She was wearing a nice blue shirt, with her long brown hair flowing, sipping matcha latte at a cozy cafe.</p>
+      <p>She has the most shiny beautiful eyes, a radiant smile, and a gentle voice. She made me believe that true love still exists in this world. She's given me new purpose and new dreams to achieve.</p>
+      <p>If love were a person, this girl would be its definition — the real angel that God sent to me.</p>
+    </div>
+
+    <section id="gallery" class="section">
+  <h2>Gallery</h2>
+  <div class="gallery-carousel">
+  <div class="gallery-track">
+    <div class="gallery-slide active">
+      <img src="images/1.jpg" alt="Photo 1" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/2.jpg" alt="Photo 2" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/3.jpg" alt="Photo 3" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/4.jpg" alt="Photo 4" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/5.jpg" alt="Photo 5" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/6.jpg" alt="Photo 6" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/7.jpg" alt="Photo 7" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/8.jpg" alt="Photo 8" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/9.jpg" alt="Photo 9" />
+    </div>
+    <div class="gallery-slide">
+      <img src="images/10.jpg" alt="Photo 10" />
+    </div>
+</div>
+
+  </div>
+</section>
+
+
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
